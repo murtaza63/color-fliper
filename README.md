@@ -1,3 +1,3 @@
 # color-fliper
-npm run install     
+npm  install     
 run the above  command in your terminal to install depencies  
