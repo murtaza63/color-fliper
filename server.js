@@ -1,7 +1,7 @@
 let express = require('express')
 let path = require('path')
 let app = express()
-let port = process.env.PORT || 3000
+let port = process.env.PORT || 8000
 app.use(express.static('public'))
 
 
