@@ -1,7 +1,7 @@
 let express = require('express')
 let path = require('path')
 let app = express()
-
+let port = process.env.PORT || 3000
 app.use(express.static('public'))
 
 
@@ -11,6 +11,6 @@ app.get("/",  function(req, res){
 
 
 
-app.listen(3000, function(){
-    console.log("App is listening on 3000")
+app.listen(port, function(){
+    console.log("App is listening on port: " + port)
 })
